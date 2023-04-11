@@ -1,0 +1,39 @@
+
+header{
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    color: white;
+    display: flex;
+    align-self:auto;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-bottom: .5em;
+
+}
+  
+
+.logo {
+      margin-right: auto;
+}
+
+ul li{
+    display: flex;
+    background-color: rgb(153, 162, 187);
+    border-radius: 5px;
+    margin-left: 8px;
+    font-size: 1em;
+    padding: 0.5em;
+    line-height: 2;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(15, 9, 9);
+}
